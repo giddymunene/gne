@@ -26,20 +26,18 @@ const About = () => {
               <li><i className="fas fa-check"></i> Quick Response Times</li>
             </ul>
           </div>
+
           <div className="about-image">
-            {/* You can add an image here */}
-            <div style={{
-              background: '#3498db',
-              height: '400px',
-              borderRadius: '10px',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              color: 'white',
-              fontSize: '1.2rem'
-            }}>
-              IT Solutions Image
-            </div>
+            <img 
+              src="https://images.pexels.com/photos/3182763/pexels-photo-3182763.jpeg"
+              alt="Computer users working together"
+              style={{
+                width: '100%',
+                height: '400px',
+                objectFit: 'cover',
+                borderRadius: '10px'
+              }}
+            />
           </div>
         </div>
       </div>

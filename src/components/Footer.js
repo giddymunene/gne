@@ -5,19 +5,57 @@ const Footer = () => {
     <footer className="footer">
       <div className="container">
         <div className="footer-content">
+
           <div className="footer-section">
             <h3>GNE IT Consultancy</h3>
             <p>
               Your trusted partner for comprehensive IT solutions. 
               We provide expert services to help your business thrive in the digital world.
             </p>
+
             <div className="social-links">
-              <a href="#"><i className="fab fa-facebook"></i></a>
-              <a href="#"><i className="fab fa-twitter"></i></a>
-              <a href="#"><i className="fab fa-linkedin"></i></a>
-              <a href="#"><i className="fab fa-instagram"></i></a>
+              <a 
+                href="https://www.facebook.com/yourprofile" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <i className="fab fa-facebook"></i>
+              </a>
+
+              <a 
+                href="https://x.com/yourprofile" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <i className="fab fa-x"></i>
+              </a>
+
+              <a 
+                href="https://whatsapp.com/0743819542" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <i className="fab fa-whatsapp"></i>
+              </a>
+
+              <a 
+                href="https://www.linkedin.com/in/giddymunene" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <i className="fab fa-linkedin"></i>
+              </a>
+
+              <a 
+                href="https://www.instagram.com/yourprofile" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <i className="fab fa-instagram"></i>
+              </a>
             </div>
           </div>
+
           <div className="footer-section">
             <h3>Quick Links</h3>
             <ul className="footer-links">
@@ -27,6 +65,7 @@ const Footer = () => {
               <li><a href="#contact">Contact</a></li>
             </ul>
           </div>
+
           <div className="footer-section">
             <h3>Services</h3>
             <ul className="footer-links">
@@ -38,8 +77,9 @@ const Footer = () => {
             </ul>
           </div>
         </div>
+
         <div className="footer-bottom">
-          <p>&copy; 2024 GNE IT Consultancy. All rights reserved.</p>
+          <p>&copy; 2025 GNE IT Consultancy. All rights reserved.</p>
         </div>
       </div>
     </footer>
